@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.statistics{
+    height:calc(100vh - 55px);
+   
+  
+}
+ .stat-h2{
+     margin-top: 55px;
+    width: 100%;
+    background-image:linear-gradient(to right, rgb(255, 81, 0),yellow);
+    display: block;
+}
+
+@media only screen and (max-width: 945px) {
+    .stat-h2{
+        margin-top: 40px;
+       width: 100%;
+       background-image:linear-gradient(to right, rgb(255, 81, 0),yellow);
+       display: block;
+   }
+
+}
+
+.statistics h2{
+    text-align: center;
+    font-family: 'Ubuntu';
+    border-bottom: 2px solid grey;
+    /* background-color: aqua; */
+}
+
+#admin_stats_container{
+    margin-top: 40px;
+
+}
+
+
+.admin_stats_container_up{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgb(250, 55, 7),rgb(229, 255, 0));
+    border-radius: 50%;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    max-width: 200px;
+}
+
+.admin_stats_container_up img{
+    width: 40%;
+    /* max-height: 100px; */
+   
+}
+.admin_stats_container_mid{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin_stats_container_lw{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr{
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(11, 115, 14);
+    margin: auto;
+}
+
+#admin_stats_container{
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.admin_stat_box{
+    width :20%;
+
+}
+
+.admin_stat_box p{
+    font-size: 40px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    #admin_stats_container{
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    .admin_stat_box{
+        width :80%;
+        margin: 10px;
+    
+    }
+    .admin_stats_container_up{
+        height: 17vh;
+    }
+    .admin_stats_container_lw,.admin_stats_container_mid{
+        height: 10vh;
+    }
+
+
+} 

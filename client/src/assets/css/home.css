@@ -1,0 +1,369 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ______Nav_Start_____ */
+
+nav{
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 4px -1px;
+    height: 55px;
+    background: #fff;
+    width: 100%;
+}
+
+nav .logo_class{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+nav .logo_class img{
+    height: 45px;
+}
+@media only screen and (max-width: 945px) {
+}
+
+nav .menu ul{
+    display: flex;
+    margin: 0px 0 0 100px;
+    /* justify-content: center; */
+}
+
+nav .menu li {
+    list-style: none;
+    margin: 13px 20px;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    font-family: 'Ubuntu', cursive;
+    font-weight:bold;
+    padding: 7px 15px;
+    color: #000;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    
+}
+
+nav .menu li a:hover{
+    color: white;
+    transition: .4s;
+    background-color: rgb(255, 102, 31) 
+    
+}
+
+/* ______Nav_Start_End____ */
+
+
+/* _____UpperBoby_Starts____ */
+
+.upperbody::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-image:linear-gradient( to bottom right,
+    rgb(247, 84, 8),
+    rgb(255, 255, 255),
+    rgb(24, 145, 0)
+    );
+    height: 300px;
+    width: 100%;
+    z-index: -200;
+}
+
+
+.upperbody{
+    margin-top: 43px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upperbody .upperbody_container{
+    width: 70%;
+    height: 80%;
+    font-family: 'Handlee', cursive;
+    
+}
+
+.upperbody .upperbody_container p{
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 100;
+    color:rgb(6, 103, 14);
+    text-shadow: 0 0 2px 2px green;
+}
+
+.upperbody .upperbody_container button{
+    transition: .4s;
+    display: block;
+    margin: 24px auto;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(255, 88, 10);
+    font-family: 'Ubuntu';
+    
+}
+
+.upperbody .upperbody_container button:hover{
+    background-color: rgb(11, 81, 31);
+
+
+}
+
+.upperbody .upperbody_container button a{
+        font-family: 'Ubuntu';
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+        color: #fff;
+        
+    }
+    
+/* _____UpperBoby_Ends____ */
+    
+    
+    
+
+
+
+
+
+
+
+.vote{
+    
+    
+    width: 100%;
+    height: 480px;
+    background-image:linear-gradient(to bottom right,
+    rgb(255, 51, 0),
+    white,
+    rgb(12, 83, 12)
+    
+    );
+}
+
+.vote .vote_form_window{
+    /* height: 350px;
+    width: 350px; */
+    background-color: rgb(0, 61, 122);
+    color: #fff;
+    
+}
+
+.vote .vote_form_window .modal-content{
+    background-color: #fff;
+    
+}
+
+
+/* ______Feature_Section_________ */
+
+.feature_container h1{
+    margin: 50px 0 35px 20px;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+
+}
+.features{
+    display: flex;
+    min-width:150px ;
+    width: 100%;
+    font-family: 'Ubuntu', cursive;
+    margin-bottom: 100px;
+}
+
+.features .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 22%;
+    background-color: rgb(245, 79, 14);
+    margin: 5px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.features .box:hover{
+    transition: .6s;
+    background-color: rgb(1, 101, 12);
+    
+ 
+}
+
+.features .box a{
+    
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* ______Feature_Section_End________ */
+
+/* -about_&&_Contacts */
+
+.about{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    /* line-height: 26px; */
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+.about h2{
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px 0;
+}
+
+.about p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.about_left{
+    width: 49.7%;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 15px;
+}
+
+.about_right{
+    width: 49.7%;
+    background-color: rgb(35, 35, 35);
+    padding: 10px 15px;
+}
+#about_mid{
+    width:.6%;
+    background-color: rgb(176, 173, 173);
+}
+
+
+/* --about_&&_Contact_---End______________ */
+
+
+/* ---------------Footer---------------- */
+
+footer{
+    height: 25px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    /* padding: 4px; */
+
+}
+
+/* -----------Foter_End----------------- */
+
+@media only screen and (max-width: 945px){
+    .upperbody .upperbody_container p{
+        font-size: 25px;
+
+    }
+    .features {
+      flex-direction: column;
+
+    }
+    .features .box{
+        width: 90%;
+        margin: 10px auto;
+
+    }
+  
+    .about p{
+        font-size: 15px;
+    }
+
+    nav .logo_class{
+        top: 3px;
+        left: 3px;
+    }
+
+    nav .logo_class img{
+        top: 3px;
+        /* display: block; */
+        /* margin: auto; */
+        height: 30px;
+        border-radius: 50%;
+    }
+    nav .menu ul{
+        /* display: flex; */
+        margin: 0px 0 0 30px;
+        justify-content: center;
+    }
+    
+    nav{
+        
+        height: 40px;
+        /* background: #fff;
+        width: 100%; */
+    }
+    nav .menu li {
+        margin: 10px 5px;
+    }
+
+    nav .menu li a{
+        font-size: 20px;
+        padding: 3px 10px;
+    }
+
+    .upperbody{
+        margin-top: 90px;
+        
+    }
+    footer{
+        height: 50px;
+        flex-direction: column;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .upperbody .upperbody_container p{
+        font-size: 20px;
+
+    }
+    .about{
+        height: 270px;
+        
+        
+    }
+    .about h2{
+        font-size: 17px;
+        margin: 5px 0;
+    }
+    nav .menu li a{
+        font-size: 14.5px;
+        padding: 3px 5px;
+    }
+
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+
+.admin_nav .admin_hamburger button{
+    font-size: 1.6rem;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    
+}
+
+.admin_nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 61, 122);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px 1px black;
+    height:55px;
+    width: 100%;
+    
+}
+
+.admin_nav_p p{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.admin_nav .admin_nav_ul{
+    margin: auto;
+}
+
+.admin_nav  ul li{
+    
+    list-style: none;
+    font-size: 20px;
+    font-family:'Ubuntu', sans-serif;
+    border: 2px solid rgb(66, 66, 66);
+   
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 945px){
+    #admin_menu  {
+
+        display: block;
+    }    
+    
+}
+
+
+#admin_menu  {
+
+    display: block;
+    
+    position:fixed;
+    top: 55px;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0 10px 7px 1px black;;
+}
+
+
+#admin_menu #admin_menu_close{
+    margin: 8px 10px;
+    color: #fff;
+    display: none;
+}
+
+#admin_menu #admin_menu_close button{
+    font-size: 1.6rem;
+    color:#fff;
+    background-color: rgba(8, 8, 8, 0);
+    border: none;
+    outline: none;
+}
+
+
+
+    .admin_menu .admin_menu_sidebar ul li{
+        cursor: pointer;
+        
+        list-style: none;
+        font-size: 16px;
+        color: rgb(255, 250, 250);
+        
+    }
+    .admin_menu .admin_menu_sidebar ul li a{
+        display: block;
+        padding: 20px 27px;
+        font-family:'Ubuntu', sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+    }
+
+
+
+.admin_menu .admin_menu_sidebar ul li:hover{
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+}
+
+.admin_menu .admin_menu_sidebar ul li:hover a{
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 945px) {
+    .admin_nav .admin_hamburger button{
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        
+    }
+
+
+    .admin_nav{
+        height:40px;
+    
+    }
+
+    #admin_menu{
+    
+       display: none;
+       position: fixed;
+       top: 0;
+       left: 0;
+       /* left: -50%; */
+       height: 100%;
+       width: 60vw;
+    }
+
+    #admin_menu #admin_menu_close{
+        display: block;
+    }
+
+    .view{
+         width: 100%;
+        
+        
+        
+    }
+
+
+}

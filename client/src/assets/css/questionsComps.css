@@ -1,0 +1,29 @@
+.q-c-container{
+    display: flex;
+    justify-content: center;
+}
+
+.q-c-body{
+    width: 90%;
+    background-image: linear-gradient(to right ,
+    rgb(255, 111, 0),
+    yellow
+    /* rgb(97, 0, 187) */
+    );
+    background-color: rgb(150, 42, 42);
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.q-c-body p{
+   font-size: 18px;
+   color: rgb(0, 0, 0);
+   
+}
+#q-c-disc{
+    border: 1.5px solid grey;
+    margin: 10px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding:15px 20px;
+}
